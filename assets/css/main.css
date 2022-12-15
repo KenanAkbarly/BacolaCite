@@ -195,3 +195,146 @@ nav {
   width: 100%;
   height: 1px;
   background-color: #bbbbbb; }
+
+.ions_serch_user {
+  width: 1200px;
+  height: 97px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .ions_serch_user .logo_icon {
+    text-decoration: none; }
+    .ions_serch_user .logo_icon img {
+      width: 164px;
+      height: 43px; }
+    .ions_serch_user .logo_icon p {
+      font-size: 0.6875rem;
+      color: rgba(128, 128, 128, 0.562); }
+  .ions_serch_user .serch_user_middle {
+    display: flex;
+    gap: 30px; }
+    .ions_serch_user .serch_user_middle .ions_serch_user_middle {
+      border: 1px solid #d6d6d6;
+      width: 150px;
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      transition: all 0.3s ease-out; }
+      .ions_serch_user .serch_user_middle .ions_serch_user_middle:hover {
+        cursor: pointer;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; }
+      .ions_serch_user .serch_user_middle .ions_serch_user_middle div {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 160px; }
+        .ions_serch_user .serch_user_middle .ions_serch_user_middle div p {
+          font-size: 0.6875rem;
+          color: rgba(128, 128, 128, 0.562); }
+        .ions_serch_user .serch_user_middle .ions_serch_user_middle div div {
+          display: flex;
+          flex-direction: row; }
+          .ions_serch_user .serch_user_middle .ions_serch_user_middle div div span {
+            font-size: 12px;
+            color: #233a95;
+            font-weight: 700;
+            width: 110px;
+            margin: 0 !important;
+            padding: 0; }
+          .ions_serch_user .serch_user_middle .ions_serch_user_middle div div i {
+            font-size: 0.6875rem;
+            color: rgba(128, 128, 128, 0.562); }
+  .ions_serch_user .serch_user_middle_search {
+    width: 557px;
+    height: 60px;
+    background-color: rgba(230, 230, 230, 0.404);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px; }
+    .ions_serch_user .serch_user_middle_search input {
+      border: none;
+      background-color: transparent;
+      width: 100%; }
+      .ions_serch_user .serch_user_middle_search input:focus {
+        outline: none; }
+  .ions_serch_user .serch_user_middle_last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px; }
+    .ions_serch_user .serch_user_middle_last .serch_user_middle_last_1 {
+      width: 40px;
+      height: 40px;
+      border: 1px solid silver;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+    .ions_serch_user .serch_user_middle_last .serch_user_middle_last_2 p {
+      font-weight: 500; }
+    .ions_serch_user .serch_user_middle_last .serch_user_middle_last_3 {
+      width: 40px;
+      height: 40px;
+      background-color: #fff1ee;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative; }
+      .ions_serch_user .serch_user_middle_last .serch_user_middle_last_3 i {
+        color: red; }
+      .ions_serch_user .serch_user_middle_last .serch_user_middle_last_3 span {
+        position: absolute;
+        font-size: 12px;
+        color: white;
+        background-color: red;
+        top: 0;
+        right: 0;
+        display: flex;
+        width: 15px;
+        height: 15px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%; }
+
+.catagories {
+  width: 1200px;
+  height: 88px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .catagories .catagories_left {
+    position: relative;
+    width: 213px;
+    height: 50px;
+    background-color: #2bbef9;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .catagories .catagories_left:hover {
+      cursor: pointer; }
+    .catagories .catagories_left div {
+      display: flex;
+      align-items: center;
+      gap: 15px; }
+      .catagories .catagories_left div i {
+        color: white;
+        font-size: 12px; }
+      .catagories .catagories_left div span {
+        font-size: 14px;
+        font-weight: 500;
+        color: white; }
+    .catagories .catagories_left p {
+      position: absolute;
+      bottom: -6px;
+      font-size: 10px;
+      background-color: #dadada;
+      padding: 3px 10px;
+      border-radius: 30px;
+      color: gray; }
